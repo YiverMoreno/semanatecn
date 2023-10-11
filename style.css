@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    margin: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #007BFF;
+}
+ul {
+    list-style-type: square;
+}
+.progress-bar {
+    width: 100%;
+    height: 40px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Añadimos bordes redondeados */
+}
+.progress {
+    height: 100%;
+    text-align: right;
+    padding: 3px;
+    color: white;
+}
+.html {
+    width: 90%;
+    background-color: #EE9322;
+    border-radius: 10px; /* Añadimos bordes redondeados */
+}
+.css {
+    width: 70%;
+    background: linear-gradient(to right, #007BFF, #000000); /* Gradiente de azul a negro */
+    border-radius: 10px; /* Añadimos bordes redondeados */
+}
+.javascript {
+    width: 30%;
+    background-color: #E9B824;
+    border-radius: 10px; /* Añadimos bordes redondeados */
+}
+
+.python {
+width: 80%;
+background: linear-gradient(to right, #FFFF00, #007BFF); /* Gradiente de amarillo a azul */
+border-radius: 10px; /* Añadimos bordes redondeados */
+}
+.cpp {
+    width: 50%;
+    background-color: #007BFF;
+    border-radius: 10px; /* Añadimos bordes redondeados */
+}
+
+.profile-pic img {
+    height: 300px;
+    max-width: 100%;
+    border-radius: 50%; /* Hacemos que la foto sea circular */
+    display: block; /* Centramos la imagen */
+    margin: 0 auto 20px; /* Añadimos espacio inferior */
+}
